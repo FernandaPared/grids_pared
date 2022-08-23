@@ -1,0 +1,341 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/*header+menú de nav.*/
+
+header{
+    background-color: black;
+}
+ 
+.nav12{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 130px;
+}
+
+
+.menu45 {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a { 
+    list-style: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+ 
+/*section*/
+
+h1{
+    text-align: center;
+    margin-top: 4px;
+    border-bottom:1px  solid black;
+}
+
+#banner{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+.zapa1{
+display: flex;
+justify-content: center;
+
+}
+
+.zapa1 :hover{
+    transform: scale(1.3);
+}
+
+.zapatillas2{
+    width: 300px;
+}
+
+#remera{
+    margin-left: 550px;;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+p{
+    font-size:20px;
+    padding-left: 10px;
+}
+
+.zapatillas12{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 15px;
+}
+
+.clasificaciones1 {
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 82px;
+}
+
+#whastapp{
+    position: fixed;
+    right: 5px;
+    bottom:15px;
+}
+
+#filtro{
+    padding-top: 5px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+
+#formulario {
+    background-color: rgb(180, 179, 179);
+    border: 10px solid black;
+    width: 650px;
+    margin-top: 90px;
+    margin-left: 650px;
+    margin-bottom: 196px;
+    display: flex;
+    justify-content: center;
+}
+
+#contacto{
+    text-align: center;
+    padding-bottom: 110px;
+    
+}
+
+
+/*grids*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 226, 225);
+}
+
+.insta1, .insta2, .insta3 {
+    width: 300px;
+    height: 300px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 110px);
+    margin-top: 40px;
+    background-color: rgb(228, 226, 225);
+}
+
+.grid1 :hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+
+}
+
+button {
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.menu46{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu46 :hover{
+    text-decoration: underline;
+}
+
+.h33{
+    color: black;
+    font-size: 17px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*footer*/
+
+.footer2{
+    background-color: black;
+    height: 168px;
+    margin-top: 106px;    
+}
+
+.footer1{
+    background-color: black;
+    height: 168px;
+}
+
+h3 {
+    color: white;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+#trabaja{
+    padding-top: 10px;
+}
+
+.redes {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+
+/* media querie - tablet */
+
+@media screen and (max-width:768px){
+         
+    .nav12{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 25px;
+    }
+        
+    .menu45 {
+        list-style: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .zapatillas2 {
+        width: 220px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(228, 226, 225);
+    }
+    
+    .insta1, .insta2, .insta3 {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .grid1{
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(3, 80px);
+        margin-top: 40px;
+        background-color: rgb(228, 226, 225);
+        gap: 10px;
+    }
+    
+}
+
+/* media querie- celular */
+
+@media screen and (max-width: 480px) {
+
+    h1{
+        margin-top: 5px;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    h2{
+        font-size: 18px;
+        padding-top: 8px;
+        padding-left: 25px;
+    }
+
+    p{
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .nav12{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+        
+    .menu45 {
+        list-style: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .zapatillas2 {
+        width: 150px;
+    }
+    
+    .insta1, .insta2, .insta3 {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .grid1{
+        display: grid;
+        grid-template-columns: 130px;
+        grid-template-rows: 130px;
+        margin-top: 40px;
+        margin-bottom: 40px;;
+        background-color: rgb(228, 226, 225);
+    } 
+
+    button{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    h4{
+        padding-left: 25px;
+        text-align: center;
+    } 
+
+   h3{
+        padding-left: 25px;
+    }
+
+    #whastapp{
+        position: fixed;
+        left: 350px
+     }
+}
